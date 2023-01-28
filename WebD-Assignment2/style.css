@@ -311,9 +311,8 @@ form .btn2{
     font-weight: 300;
     margin-top: 20px;
 }
-nav .fas{
-    display: none;
-}
+
+
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(Images/images/phonebackground.png);
@@ -325,27 +324,5 @@ nav .fas{
     .header-text h1{
         font-size: 30px;
     }
-    nav .fas{
-        display: block;
-        font-size: 25px;
-    }
-    nav ul{
-        background: #055cd6;
-        position: fixed;
-        top: 0; 
-        right: 0;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-    }
-    nav ul li{
-        display: block;
-        margin: 25px;
-    }
-    nav ul .fas{
-        position: absolute;
-        top:25px;
-        left:25px;
-        cursor: pointer;
-}
+
 }
